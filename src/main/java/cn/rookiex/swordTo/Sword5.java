@@ -1,4 +1,4 @@
-package cn.rookiex.swardTo;
+package cn.rookiex.swordTo;
 
 /**
  * @Author : Rookiex
@@ -6,7 +6,7 @@ package cn.rookiex.swardTo;
  * @Describe : 题目是替换空格,为"%20" 解决办法,先遍历一遍,因为字符变多,所以一个空格需要在后面加两个空字符串,然后用两个指针,
  * 一个指向加空格之前的数据,一个指向加空格之后的数据吧数据往后移,如果遇到空格就改成移需要替换的字符串
  */
-public class Sward5 {
+public class Sword5 {
     public String run(StringBuffer str) {
 
         int P1 = str.length() - 1;
